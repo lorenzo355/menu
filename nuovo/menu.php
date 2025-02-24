@@ -1,27 +1,45 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu di Navigazione</title>
-    <link rel="stylesheet" href="smart.css"> 
-    <link rel="stylesheet" href="insmart.css"> 
-    <link rel="stylesheet" href="centralini.css"> 
-    <link rel="stylesheet" href="contattaci.css"> 
+<nav>
+    <ul>
+        <?php
+        $filename = 'db-nav.txt';
+        $leggi = fopen($filename, 'r');
+        $size = 1024;
+        
+        while (!feof($leggi)) {
+            $rec = fread($leggi, $size);
+        }
+        fclose($leggi);
 
-</head>
-<body>
-    <nav>
-        <ul>
-            <a href="#software" class="dropbtn">Software</a>
-            <li><a href="smart.php">SMART</a></li>
-            <li><a href="insmart.php">INSMART</a></li>
-
-            <a href="#hardware" class="dropbtn">Software</a>
-            <li><a href="centralini.php">Centralini</a></li>
+        $padri = [];
+        $figlie = [];
+        $i=0;
+        foreach (explode("\n", $rec) as $string) {
+            $parts = explode("|", $string);
             
-            <li><a href="contattaci.php">Contattaci</a></li>
-        </ul>
-    </nav>
-</body>
-</html>
+            $indice=$parts[0];
+            $descrizione=$parts[1];
+            $nomePagina=$parts[2];
+            $isPadre=(ctype_digit($indice));
+            
+
+            if($isPadre)
+            {
+                if($i>0)
+                {
+                    echo '</div>
+                            </li>';
+                }
+                echo '<li class="dropdown">
+            <a href="" class="dropbtn">'.$descrizione.'</a>
+            <div class="dropdown-content">';
+            }else{
+                echo '<a href="'.$nomePagina.'">'.$descrizione.'</a>';
+            }
+
+            if (ctype_digit($indice)) {
+                $padri[$indice] = ['descrizione' => $descrizione, 'pagina' => $nomePagina, 'figlie' => []];
+            } else {
+                $figlie[] = ['padre' => $indice, 'descrizione' => $descrizione, 'pagina' => $nomePagina];
+            }
+            $i++;
+        }

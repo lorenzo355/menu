@@ -1,0 +1,1345 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+.justify {
+	text-align: justify;
+}
+
+.justify h1,
+.justify h4,
+.justify h6 {
+	text-align: left;
+}
+
+img {
+	image-rendering: unset;
+}
+
+@media screen and (max-width: 480px) and (min-width: 351px){
+	.home div.grid_section .section_inner {
+		max-width: 350px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.slider-desktop {
+		display: none;
+	}
+}
+@media screen and (min-width: 768px) {
+	.slider-mobile {
+		display: none;
+	}
+}
+
+.footer_bottom {
+	line-height: 20px !important;
+}
+
+.btn {
+	background: #aeaeae;
+	color: #fff !important;
+	font-weight: 400;
+	padding: 10px 25px;
+	border-radius: 15px;
+	border-bottom: 3px solid #6c6c6c;
+	line-height: normal;
+	display: inline-block;
+	min-width: 140px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+a {
+	color: #000;
+}
+
+a:hover {
+	color: #303030;
+	text-decoration: underline;
+}
+
+.q_logo a {
+	height: 72px !important; 
+}
+
+#grid li {
+    list-style-type: none;
+    position: relative;
+    float: left;
+    width: 27.85714285714286%;
+    padding: 0 0 32.16760145166612% 0;
+    -o-transform: rotate(-60deg) skewY(30deg);
+    -moz-transform: rotate(-60deg) skewY(30deg);
+    -webkit-transform: rotate(-60deg) skewY(30deg);
+    -ms-transform: rotate(-60deg) skewY(30deg);
+    transform: rotate(-60deg) skewY(30deg);
+    background: #fd005f;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#grid li .hexagon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fdbf00;
+    -o-transform: skewY(-30deg) rotate(60deg);
+    -moz-transform: skewY(-30deg) rotate(60deg);
+    -webkit-transform: skewY(-30deg) rotate(60deg);
+    -ms-transform: skewY(-30deg) rotate(60deg);
+    transform: skewY(-30deg) rotate(60deg);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: all 0.3s ease 0s;
+}
+
+.servizi #grid li .hexagon:hover,
+.prodotti #grid li .hexagon:hover {
+	box-shadow: inset 0em 0em 130px 0px rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+}
+
+#grid li * {
+    visibility: visible;
+}
+
+
+#grid li:nth-child(3n+2) {
+  margin: 0 1%;
+}
+
+.servizi #grid li:nth-child(6n+1),
+.servizi #grid li:nth-child(6n+2),
+.servizi #grid li:nth-child(6n+3) {
+    margin-top: -6.9285714285%;
+    margin-bottom: -6.9285714285%;
+    -o-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -moz-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -webkit-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    transform: translateX(50%) rotate(-60deg) skewY(30deg);
+}
+
+.prodotti #grid li:nth-child(6n+4),
+.prodotti #grid li:nth-child(6n+5),
+.prodotti #grid li:nth-child(6n+6) {
+    margin-top: -6.9285714285%;
+    margin-bottom: 0px;
+    -o-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -moz-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -webkit-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    transform: translateX(50%) rotate(-60deg) skewY(30deg);
+}
+
+.software_icon .content_hexagon #grid li:nth-child(6n+1),
+.software_icon .content_hexagon #grid li:nth-child(6n+2),
+.software_icon .content_hexagon #grid li:nth-child(6n+3) {
+    margin-top: -6.9285714285%;
+    margin-bottom: -6.9285714285%;
+    -o-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -moz-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -webkit-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    transform: translateX(50%) rotate(-60deg) skewY(30deg);
+}
+
+.servizi #grid li:nth-child(6n+1),
+.software_icon .content_hexagon #grid li:nth-child(6n+1) { 
+    margin-left: 0.5%;
+}
+
+.prodotti #grid li:nth-child(6n+4) { 
+    margin-left: 0.5%;
+}
+
+.servizi #grid li:nth-child(1),
+.servizi #grid li:nth-child(2),
+.servizi #grid li:nth-child(3),
+.software_icon .content_hexagon #grid li:nth-child(1),
+.software_icon .content_hexagon #grid li:nth-child(2),
+.software_icon .content_hexagon #grid li:nth-child(3) {
+	margin-top: 0px !important;
+}
+
+.servizi #grid li:nth-child(7),
+.servizi #grid li:nth-child(8),
+.servizi #grid li:nth-child(9),
+.software_icon .content_hexagon #grid li:nth-child(7),
+.software_icon .content_hexagon #grid li:nth-child(8),
+.software_icon .content_hexagon #grid li:nth-child(9) {
+	margin-bottom: 0px !important;
+}
+
+.prodotti #grid li:nth-child(7),
+.prodotti #grid li:nth-child(8),
+.prodotti #grid li:nth-child(9) {
+	margin-bottom: 0px;
+	margin-top: -6.9285714285%;
+}
+
+.servizi #grid li:nth-child(3) .hexagon,
+.prodotti #grid li:nth-child(1) .hexagon,
+.prodotti #grid li:nth-child(7) .hexagon {
+	display: none;
+}
+
+@media screen and (min-width: 769px) {
+	.software_icon .content_text {
+		width: 50%;
+		box-sizing: border-box;
+		padding: 0 15px;
+	}
+	.software_icon .content_hexagon {
+		width: 50%;
+		box-sizing: border-box;
+		padding: 0 15px;
+	}
+	.content_text {
+		width: 41.66666667%;
+		float: left;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+	.content_hexagon {
+		width: 58.33333333%;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	
+	.products,
+	.services {
+		position: absolute;
+		transition: all 0.3s ease 0s;
+	}
+	.row-hexagon .wpb_wrapper {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.content_hexagon {
+		display: inline-block;
+		width: 100%;
+	}
+}
+
+.row-hexagon .content_text p {
+	text-align: justify;
+}
+
+#smart.hexagon img {
+	max-width: 135px;
+	width: 60%;
+}
+#industria.hexagon img {
+	max-width: 115px;
+	width: 60%;
+}
+#marcatempo.hexagon img {
+	max-width: 55px;
+}
+.hexagon img {
+	max-width: 75px;
+	width: 40%;
+}
+
+.servizi #grid li:nth-child(1) .hexagon {
+	background: linear-gradient(90deg, #5ab592 0%, #008060 100%);
+}
+.servizi #grid li:nth-child(2) .hexagon {
+	background: linear-gradient(90deg, rgb(82, 185, 61) 0%, rgb(68, 119, 72) 100%);
+}
+.servizi #grid li:nth-child(4) .hexagon {
+	background: linear-gradient(90deg, #00a0ee 0%, #2053e0 100%);
+}
+.servizi #grid li:nth-child(6) .hexagon {
+	background: linear-gradient(90deg, #ffbb2d 0%, #ff6813 100%);
+}
+.servizi #grid li:nth-child(7) .hexagon {
+	background: linear-gradient(90deg, #618bc6 0%, #1b4ba0 100%);
+}
+.servizi #grid li:nth-child(8) .hexagon {
+	background: linear-gradient(90deg, #c198c0 0%, #9d4d98 100%);
+}
+.servizi #grid li:nth-child(5) .hexagon,
+.prodotti #grid li:nth-child(5) .hexagon {
+	background: transparent;
+	box-shadow: unset;
+	cursor: auto;
+}
+.prodotti #grid li:nth-child(2) .hexagon {
+	background: linear-gradient(90deg, rgba(37,93,158,1) 0%, rgba(6,51,103,1) 100%);
+}
+.prodotti #grid li:nth-child(3) .hexagon {
+	background: linear-gradient(90deg, rgba(139,95,210,1) 0%, rgba(85,61,123,1) 100%);
+}
+.prodotti #grid li:nth-child(4) .hexagon {
+	background: linear-gradient(90deg, #26bdb1 0%, #149187 100%);
+}
+.prodotti #grid li:nth-child(6) .hexagon {
+	background: linear-gradient(90deg, #ee4035 0%, #ac2d25 100%);
+}
+.prodotti #grid li:nth-child(8) .hexagon {
+	background: linear-gradient(90deg, #f8d746 0%, #e5be10 100%);
+}
+.prodotti #grid li:nth-child(9) .hexagon {
+	background: linear-gradient(90deg, rgb(240, 149, 95) 0%, rgb(164, 84, 14) 100%);
+}
+
+.footer-newsletter,
+.footer-supremo {
+	margin-bottom: 25px;
+}
+
+.footer-newsletter img,
+.footer-supremo img {
+	width: 120px;
+}
+
+.footer-supremo h5 {
+	margin-bottom: 5px;
+}
+
+.subtitle_supremo {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+
+.download-btn a {
+	background: #0f75bc;
+	color: #fff !important;
+	font-weight: 500;
+	padding: 0px 25px;
+	border-radius: 15px;
+	border-bottom: 3px solid #0a5487;
+	margin: 0px 10px 15px;
+	line-height: 43px;
+	height: 40px;
+	display: inline-block;
+	min-width: 140px;
+}
+
+.bg-esagoni .qode-accordion-holder .qode-title-holder {
+	background-color: transparent !important;
+	color: #000 !important;
+}
+
+.bg-esagoni .qode-accordion-holder .qode-title-holder .qode-accordion-mark {
+	left: 0;
+	width: 40px;
+	right: 0px;
+}
+
+.bg-esagoni .qode-accordion-holder .qode-title-holder .qode-tab-title span.qode-tab-title-inner:only-child {
+	padding-left: 58px;
+}
+
+.bg-esagoni .qode-accordion-holder .qode-title-holder .qode-accordion-mark-icon span {
+	background: #eaeaea;
+	height: 40px;
+}
+
+.bg-esagoni .qode-accordion-holder .qode-title-holder .qode-accordion-mark-icon span:last-child {
+	color: #009245;
+}
+
+.bg-esagoni .qode-accordion-holder .qode-title-holder .qode-accordion-mark-icon span {
+	line-height: 40px;
+}
+
+.bg-esagoni .qode-accordion-holder .qode-title-holder .qode-tab-title {
+	height: 45px;
+}
+
+.bg-esagoni .qode-accordion-holder .qode-accordion-content {
+	padding: 0px 20px 40px 60px;
+}
+
+.bg-esagoni {
+	padding: 160px 0px;
+}
+
+.qode-bct-title-holder {
+	padding: 0px;
+}
+
+.qode-bct-title-holder h4 {
+	font-weight: bold;
+	font-size: 25px;
+	left: 0;
+	position: absolute;
+	height: 100%;
+	line-height: 56px;
+}
+
+.qode-bct-caroufredsel-prev {
+	border-right: unset !important;
+	right: 33px;
+	left: auto !important;
+	width: auto !important;
+}
+
+.qode-bct-caroufredsel-next {
+	border-left: unset !important;
+	width: auto !important;
+}
+
+.qode-bct-caroufredsel-prev:hover,
+.qode-bct-caroufredsel-next:hover {
+	text-decoration: none;
+}
+
+.qode-blog-carousel-titled .qode-bct-post .qode-bct-post-title a{
+	font-weight: 500;
+}
+.qode-blog-carousel-titled .qode-bct-post .qode-bct-post-title a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.qode-bct-post-excerpt {
+	display: none;
+}
+
+.qode-blog-carousel-titled .qode-bct-post .qode-bct-post-date {
+	color: #808080;
+	font-size: 12px;
+}
+
+.qode-blog-carousel-titled .qode-bct-post .qode-bct-post-excerpt {
+	display: none;
+}
+
+.qode-blog-carousel-titled .qode-bct-posts-holder {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.qode-bct-post-image {
+	position: relative;
+}
+
+.qode-bct-post-image .category {
+	position: absolute;
+	bottom: -13px;
+	padding: 0 10px;
+	display: none;
+}
+
+.qode-bct-post-image .category a {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.qode-bct-post-image .category.cat-3 {
+	background-color: #cddc39;
+}
+.qode-bct-post-image .category.cat-4 {
+	background-color: #ed145b;
+}
+.qode-bct-post-image .category.cat-5 {
+	background-color: #7900c6;
+}	
+
+.sub-send {
+	width: 100%;
+	font-size: 16px;
+	font-weight: 700;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: #009245;
+	border-bottom: 3px solid #016a33;
+	border-left: unset;
+	border-top: unset;
+	border-right: unset;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+}
+
+.container-email {
+	display: flex;
+	max-width: 500px;
+	margin: auto;
+}
+
+.sub-email {
+	width: 100%;
+	height: 43px;
+	font-size: 14px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	border-top-left-radius: 15px;
+	border-top: 3px solid #c5c9ca;
+	border-left: unset;
+	border-right: unset;
+	border-bottom: unset;
+	border-bottom-left-radius: 15px;
+	color: #5b5b5b;
+	font-style: italic;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.sub-check {
+	width: 100%;
+	font-size: 13px;
+	line-height: normal;
+	max-width: 500px;
+	margin: 10px auto 0px auto;
+	text-align: left;
+	display: block;
+}
+
+.sub-check a:hover {
+	color: #818181 !important;
+}
+
+
+@media screen and (max-width: 1000px) {
+	.grid_esagoni_desktop {
+		display: none;
+	}
+}
+@media screen and (min-width: 1001px) {
+	.grid_esagoni_mobile {
+		display: none;
+	}
+}
+
+.grid_esagoni_mobile img {
+	width: 100px;
+}
+
+.grid_esagoni_mobile #ui-id-1 {
+	background: linear-gradient(90deg, #5ab592 0%, #008060 100%) !important;	
+}
+.grid_esagoni_mobile #ui-id-3 {
+	background: linear-gradient(90deg, rgb(82, 185, 61) 0%, rgb(68, 119, 72) 100%) !important;
+}
+.grid_esagoni_mobile #ui-id-5 {
+	background: linear-gradient(90deg, #00a0ee 0%, #2053e0 100%) !important;
+}
+.grid_esagoni_mobile #ui-id-7 {
+	background: linear-gradient(90deg, #ffbb2d 0%, #ff6813 100%) !important;
+}
+.grid_esagoni_mobile #ui-id-9 {
+	background: linear-gradient(90deg, #618bc6 0%, #1b4ba0 100%) !important;
+}
+.grid_esagoni_mobile #ui-id-11 {
+	background: linear-gradient(90deg, #c198c0 0%, #9d4d98 100%) !important;
+}
+.grid_esagoni_mobile #ui-id-13 {
+	background: linear-gradient(90deg, rgba(37,93,158,1) 0%, rgba(6,51,103,1) 100%) !important;
+}
+.grid_esagoni_mobile #ui-id-15 {
+	background: linear-gradient(90deg, rgba(139,95,210,1) 0%, rgba(85,61,123,1) 100%) !important;
+}
+.grid_esagoni_mobile #ui-id-17 {
+	background: linear-gradient(90deg, #26bdb1 0%, #149187 100%) !important;
+}
+.grid_esagoni_mobile #ui-id-19 {
+	background: linear-gradient(90deg, #ee4035 0%, #ac2d25 100%) !important;
+}
+.grid_esagoni_mobile #ui-id-21 {
+	background: linear-gradient(90deg, #f8d746 0%, #e5be10 100%) !important;
+}
+.grid_esagoni_mobile #ui-id-23 {
+	background: linear-gradient(90deg, rgb(240, 149, 95) 0%, rgb(164, 84, 14) 100%) !important;
+}
+
+.grid_esagoni_mobile .qode-accordion-holder .qode-title-holder {
+	border-radius: 15px;
+	font-size: 18px;
+	color: #fff !important;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	.grid_esagoni_mobile .qode-accordion-holder .qode-title-holder {
+		font-size: 16px;
+	}
+}
+
+.grid_esagoni_mobile .qode-accordion-holder .qode-title-holder .qode-tab-title {
+	width: 100%;
+	padding-right: 20px;
+	height: 56px;
+}
+
+.grid_esagoni_mobile .qode-accordion-holder .qode-title-holder .qode-tab-title span.qode-tab-title-inner {
+	padding-left: 40px !important;
+}
+
+
+.grid_esagoni_mobile #ui-id-13 .qode-tab-title span.qode-tab-title-inner:before {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2021/12/computer.png);
+}
+.grid_esagoni_mobile #ui-id-15 .qode-tab-title span.qode-tab-title-inner:before {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2021/12/networking-ic.png);
+}
+.grid_esagoni_mobile #ui-id-17 .qode-tab-title span.qode-tab-title-inner:before {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2021/12/backup-su-cloud.png);
+}
+.grid_esagoni_mobile #ui-id-19 .qode-tab-title span.qode-tab-title-inner:before {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2021/12/centralino.png);
+}
+.grid_esagoni_mobile #ui-id-21 .qode-tab-title span.qode-tab-title-inner:before {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2021/12/pec-e-domini-ic.png);
+}
+.grid_esagoni_mobile #ui-id-23 .qode-tab-title span.qode-tab-title-inner:before {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/marcatempo-ic.png);
+}
+
+.grid_esagoni_mobile .qode-accordion-holder .qode-title-holder .qode-tab-title span.qode-tab-title-inner:before {
+	content: "";
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: 11px;
+	right: 0%;
+}
+
+.grid_esagoni_mobile .qode-accordion-holder .qode-title-holder .qode-accordion-mark {
+	left: 0;
+	right: 0px;
+	width: 40px;
+}
+
+.grid_esagoni_mobile .qode-accordion-holder .qode-accordion-content {
+	padding: 1px 20px 20px 20px;
+}
+
+.header_bottom_right_widget_holder {
+	padding-right: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+	.header_bottom_right_widget_holder > .widget_text {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header_bottom_right_widget_holder {
+		display: table-cell !important;
+	}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1001px) {
+	.header_bottom {
+		padding: 0 25px;
+	}
+	
+	.header_bottom_right_widget_holder {
+		padding-right: 0px;
+	}
+	nav.main_menu > ul > li > a {
+		padding: 0 12px;
+	}
+} 
+
+@media screen and (max-width: 1000px) {
+	.header_top .right {
+		display: none;
+	}
+	.header_top .btn {
+		display: block !important;
+	}
+}
+
+.full_width_inner .banner-software {
+	padding-top: 160px;
+	padding-bottom: 80px;
+	background-position: center !important;
+	margin: 0px;
+}
+
+@media screen and (max-width: 767px) {
+	.full_width_inner .banner-software {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		background-position: left center !important;
+	}
+	.icon-banner-software {
+		padding: 100px !important;
+		background-size: 150px auto !important;
+	}
+}
+
+.icon-banner-software {
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 20px;
+	background-size: contain;
+	padding: 130px;
+}
+
+.title-software h1 {
+	font-size: 35px;
+}
+
+.hidden{
+	display: none;
+}
+
+.software_icon .content_hexagon button p {
+	font-size: 18px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	line-height: normal;
+	padding: 0 10px;
+	top: 20px;
+	position: relative;
+	margin: 0px;
+}
+
+.software_icon .content_hexagon #grid li .hexagon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/hexa-w.png);
+	background-color: #ccc;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	border: unset;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+.smart_icons .content_hexagon #grid li .hexagon:hover,
+.smart_icons .content_hexagon #grid li .hexagon.active {
+	background-color: #42a881 !important;
+}
+.crm_icons .content_hexagon #grid li .hexagon:hover,
+.crm_icons .content_hexagon #grid li .hexagon.active {
+	background-color: #4377f5 !important;
+}
+.hrm_icons .content_hexagon #grid li .hexagon:hover,
+.hrm_icons .content_hexagon #grid li .hexagon.active {
+	background-color: #cd7cc2 !important;
+}
+.opup_icons .content_hexagon #grid li .hexagon:hover,
+.opup_icons .content_hexagon #grid li .hexagon.active {
+	background-color: #efca2b !important;
+}
+.insmart_icons .content_hexagon #grid li .hexagon:hover,
+.insmart_icons .content_hexagon #grid li .hexagon.active {
+	background-color: #ff9d24 !important;
+}
+.software_icon .content_hexagon #grid li .hexagon .hexa-icon {
+	background-repeat: no-repeat;
+	position: absolute;
+	background-position: center;
+	width: 45px;
+	top: 24%;
+	height: 45px;
+}
+
+.smart_icons .content_hexagon #grid li #hexa-1 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/calculator.svg);
+}
+.smart_icons .content_hexagon #grid li #hexa-1:hover .hexa-icon,
+.smart_icons .content_hexagon #grid li #hexa-1.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/calculator-g.svg);
+}
+
+.smart_icons .content_hexagon #grid li #hexa-2 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/coins-1.svg);
+}
+.smart_icons .content_hexagon #grid li #hexa-2:hover .hexa-icon,
+.smart_icons .content_hexagon #grid li #hexa-2.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/coins-g.svg);
+}
+
+.smart_icons .content_hexagon #grid li #hexa-3 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/box.svg);
+}
+.smart_icons .content_hexagon #grid li #hexa-3:hover .hexa-icon,
+.smart_icons .content_hexagon #grid li #hexa-3.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/box-g.svg);
+}
+
+.smart_icons .content_hexagon #grid li #hexa-4 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/wrench.svg);
+}
+.smart_icons .content_hexagon #grid li #hexa-4:hover .hexa-icon,
+.smart_icons .content_hexagon #grid li #hexa-4.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/wrench-g.svg);
+}
+
+.smart_icons .content_hexagon #grid li #hexa-5 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/documents-01.svg);
+}
+.smart_icons .content_hexagon #grid li #hexa-5:hover .hexa-icon,
+.smart_icons .content_hexagon #grid li #hexa-5.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/documents-01-g.svg);
+}
+
+.smart_icons .content_hexagon #grid li #hexa-6 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/shop.svg);
+}
+.smart_icons .content_hexagon #grid li #hexa-6:hover .hexa-icon,
+.smart_icons .content_hexagon #grid li #hexa-6.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/shop-g.svg);
+}
+
+.smart_icons .content_hexagon #grid li #hexa-7 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/bank.svg);
+}
+.smart_icons .content_hexagon #grid li #hexa-7:hover .hexa-icon,
+.smart_icons .content_hexagon #grid li #hexa-7.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/bank-g.svg);
+}
+
+
+.opup_icons .content_hexagon #grid li #hexa-1 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/target.svg);
+}
+.opup_icons .content_hexagon #grid li #hexa-1:hover .hexa-icon,
+.opup_icons .content_hexagon #grid li #hexa-1.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/target-y.svg);
+}
+
+.opup_icons .content_hexagon #grid li #hexa-2 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/audience.svg);
+}
+.opup_icons .content_hexagon #grid li #hexa-2:hover .hexa-icon,
+.opup_icons .content_hexagon #grid li #hexa-2.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/audience-y.svg);
+}
+
+.opup_icons .content_hexagon #grid li #hexa-3 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/id.svg);
+}
+.opup_icons .content_hexagon #grid li #hexa-3:hover .hexa-icon,
+.opup_icons .content_hexagon #grid li #hexa-3.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/id-y.svg);
+}
+
+.opup_icons .content_hexagon #grid li #hexa-4 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/call.svg);
+}
+.opup_icons .content_hexagon #grid li #hexa-4:hover .hexa-icon,
+.opup_icons .content_hexagon #grid li #hexa-4.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/call-y.svg);
+}
+
+.opup_icons .content_hexagon #grid li #hexa-5 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/card_machine.svg);
+}
+.opup_icons .content_hexagon #grid li #hexa-5:hover .hexa-icon,
+.opup_icons .content_hexagon #grid li #hexa-5.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/card_machine-y.svg);
+}
+
+.opup_icons .content_hexagon #grid li #hexa-6 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/calendar.svg);
+}
+.opup_icons .content_hexagon #grid li #hexa-6:hover .hexa-icon,
+.opup_icons .content_hexagon #grid li #hexa-6.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/calendar-y.svg);
+}
+
+.opup_icons .content_hexagon #grid li #hexa-7 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/clipboard.svg);
+}
+.opup_icons .content_hexagon #grid li #hexa-7:hover .hexa-icon,
+.opup_icons .content_hexagon #grid li #hexa-7.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/clipboard-y.svg);
+}
+
+.opup_icons .content_hexagon #grid li #hexa-8 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/shopping_trolly.svg);
+}
+.opup_icons .content_hexagon #grid li #hexa-8:hover .hexa-icon,
+.opup_icons .content_hexagon #grid li #hexa-8.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/shopping_trolly-y.svg);
+}
+
+
+
+.insmart_icons .content_hexagon #grid li #hexa-1 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/adaptive.svg);
+}
+.insmart_icons .content_hexagon #grid li #hexa-1:hover .hexa-icon,
+.insmart_icons .content_hexagon #grid li #hexa-1.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/adaptive-o.svg);
+}
+
+.insmart_icons .content_hexagon #grid li #hexa-2 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/laptop.svg);
+}
+.insmart_icons .content_hexagon #grid li #hexa-2:hover .hexa-icon,
+.insmart_icons .content_hexagon #grid li #hexa-2.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/laptop-o.svg);
+}
+
+.insmart_icons .content_hexagon #grid li #hexa-3 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/inbox.svg);
+}
+.insmart_icons .content_hexagon #grid li #hexa-3:hover .hexa-icon,
+.insmart_icons .content_hexagon #grid li #hexa-3.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/inbox-o.svg);
+}
+
+.insmart_icons .content_hexagon #grid li #hexa-4 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/leaf.svg);
+}
+.insmart_icons .content_hexagon #grid li #hexa-4:hover .hexa-icon,
+.insmart_icons .content_hexagon #grid li #hexa-4.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/leaf-o.svg);
+}
+
+.insmart_icons .content_hexagon #grid li #hexa-5 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/targett.svg);
+}
+.insmart_icons .content_hexagon #grid li #hexa-5:hover .hexa-icon,
+.insmart_icons .content_hexagon #grid li #hexa-5.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/targett-o.svg);
+}
+
+
+.software_icon .content_text h3 {
+	font-weight:700;
+	margin-bottom: 10px;
+}
+
+.smart_icons .content_text h4 span {
+	color:#42a881;
+}
+.crm_icons .content_text h4 span {
+	color:#4377f5;
+}
+.hrm_icons .content_text h4 span {
+	color:#cd7cc2;
+}
+.opup_icons .content_text h4 span {
+	color:#efca2b;
+}
+.insmart_icons .content_text h4 span {
+	color:#ff9d24;
+}
+
+.smart_icons .content_text h5 {
+	font-size: 25px;
+	color:#42a881;
+}
+.crm_icons .content_text h5 {
+	font-size: 25px;
+	color:#4377f5;
+}
+.hrm_icons .content_text h5 {
+	font-size: 25px;
+	color:#cd7cc2;
+}
+.opup_icons .content_text h5 {
+	font-size: 25px;
+	color:#efca2b;
+}
+.insmart_icons .content_text h5 {
+	font-size: 25px;
+	color:#ff9d24;
+}
+
+.smart_icons .btn {
+	background: #42a881;
+	border-bottom-color: #03916e;
+}
+.insmart_icons .btn {
+	background: #ff9d24;
+	border-bottom-color: #b36a11;
+}
+
+@media screen and (max-width: 1499px) and (min-width: 1201px) {
+	.software_icon .content_hexagon button p {
+		font-size: 14px;
+	}
+	.software_icon .content_hexagon #grid li .hexagon .hexa-icon {
+		width: 35px;
+		height: 35px;
+	}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1001px) {
+	.software_icon .content_hexagon button p {
+		font-size: 12px;
+	}
+	.software_icon .content_hexagon #grid li .hexagon .hexa-icon {
+		width: 30px;
+		height: 30px;
+		top: 20%;
+	}
+}
+
+@media screen and (max-width: 1000px) and (min-width: 769px) {
+	.software_icon .content_hexagon button p {
+		font-size: 10px;
+		top: 15px;
+	}
+	.software_icon .content_hexagon #grid li .hexagon .hexa-icon {
+		width: 25px;
+		height: 25px;
+		top: 20%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.software_icon .wpb_wrapper {
+		display: grid;
+	}
+	.software_icon .content_text {
+		order: 2;
+		text-align: center;
+	}
+	.software_icon .content_hexagon {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+	.software_icon .content_hexagon button p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 600px) and (min-width: 481px) {
+	.software_icon .content_hexagon button p {
+		font-size: 12px;
+	}
+.software_icon .content_hexagon #grid li .hexagon .hexa-icon {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.software_icon .content_hexagon button p {
+		font-size: 10px;
+		top: 10px;
+	}
+	.software_icon .content_hexagon #grid li .hexagon .hexa-icon {
+		width: 20px;
+		height: 20px;
+		top: 20%;
+	}
+}
+
+.cta {
+	margin-top: 50px;
+	padding: 50px 0px;
+}
+
+.cta h6,
+.cta h6 a {
+	color: #fff;
+}
+
+.cta h6 a {
+	font-weight: bold;
+}
+
+
+@media screen and (max-width: 767px) {
+	.cta .q_elements_holder .q_elements_item {
+		text-align: center !important;
+	}
+	.cta h6 {
+		margin-bottom: 20px !important;
+	}
+	.cta {
+		padding: 30px 0px;
+	}
+}
+
+
+.crm_icons .content_hexagon #grid li #hexa-1 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/sent.svg);
+}
+.crm_icons .content_hexagon #grid li #hexa-1:hover .hexa-icon,
+.crm_icons .content_hexagon #grid li #hexa-1.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/sent-b.svg);
+}
+
+.crm_icons .content_hexagon #grid li #hexa-2 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/bill.svg);
+}
+.crm_icons .content_hexagon #grid li #hexa-2:hover .hexa-icon,
+.crm_icons .content_hexagon #grid li #hexa-2.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/bill-b.svg);
+}
+
+.crm_icons .content_hexagon #grid li #hexa-3 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/group.svg);
+}
+.crm_icons .content_hexagon #grid li #hexa-3:hover .hexa-icon,
+.crm_icons .content_hexagon #grid li #hexa-3.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/group-b.svg);
+}
+
+.crm_icons .content_hexagon #grid li #hexa-4 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/calendar.svg);
+}
+.crm_icons .content_hexagon #grid li #hexa-4:hover .hexa-icon,
+.crm_icons .content_hexagon #grid li #hexa-4.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/calendar-b.svg);
+}
+
+.crm_icons .content_hexagon #grid li #hexa-5 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/presentation_graph.svg);
+}
+.crm_icons .content_hexagon #grid li #hexa-5:hover .hexa-icon,
+.crm_icons .content_hexagon #grid li #hexa-5.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/presentation_graph-b.svg);
+}
+
+.crm_icons .content_hexagon #grid li #hexa-6 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/clipboard.svg);
+}
+.crm_icons .content_hexagon #grid li #hexa-6:hover .hexa-icon,
+.crm_icons .content_hexagon #grid li #hexa-6.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/clipboard-b.svg);
+}
+
+.crm_icons .content_hexagon #grid li #hexa-7 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/demolition_crane.svg);
+}
+.crm_icons .content_hexagon #grid li #hexa-7:hover .hexa-icon,
+.crm_icons .content_hexagon #grid li #hexa-7.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/demolition_crane-b.svg);
+}
+
+.crm_icons .content_hexagon #grid li #hexa-8 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/map-1.svg);
+}
+.crm_icons .content_hexagon #grid li #hexa-8:hover .hexa-icon,
+.crm_icons .content_hexagon #grid li #hexa-8.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2024/10/map-1-b.svg);
+}
+
+.crm_icons .content_hexagon #grid li #hexa-9 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/presentation_graph.svg);
+}
+.crm_icons .content_hexagon #grid li #hexa-9:hover .hexa-icon,
+.crm_icons .content_hexagon #grid li #hexa-9.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/presentation_graph-b.svg);
+}
+
+
+.hrm_icons .content_hexagon #grid li #hexa-1 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/clock.svg);
+}
+.hrm_icons .content_hexagon #grid li #hexa-1:hover .hexa-icon,
+.hrm_icons .content_hexagon #grid li #hexa-1.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/clock-p.svg);
+}
+
+.hrm_icons .content_hexagon #grid li #hexa-2 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/01/calendar.svg);
+}
+.hrm_icons .content_hexagon #grid li #hexa-2:hover .hexa-icon,
+.hrm_icons .content_hexagon #grid li #hexa-2.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/calendar-p.svg);
+}
+
+.hrm_icons .content_hexagon #grid li #hexa-3 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/documents.svg);
+}
+.hrm_icons .content_hexagon #grid li #hexa-3:hover .hexa-icon,
+.hrm_icons .content_hexagon #grid li #hexa-3.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/documents-p.svg);
+}
+
+.hrm_icons .content_hexagon #grid li #hexa-4 .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/user-globe.svg);
+}
+.hrm_icons .content_hexagon #grid li #hexa-4:hover .hexa-icon,
+.hrm_icons .content_hexagon #grid li #hexa-4.active .hexa-icon {
+	background-image: url(https:///bm-informatica.it/wp-content/uploads/2022/02/user-globe-p.svg);
+}
+
+.hardware-loghi > .vc_column-inner > .wpb_wrapper {
+	padding: 10px 20px;
+}
+
+.nome-hw p {
+	font-size: 20px;
+	color: #000;
+}
+
+.row-flusso .section_inner_margin {
+	margin: 0px;
+}
+
+.row-flusso .vc_column_container > .vc_column-inner {
+	padding: 0px;
+}
+
+.row-flusso h6 {
+	font-weight: 500;
+}
+
+.row-flusso .wpb_text_column {
+	padding: 0px 15px;
+}
+
+.drop_down .second .inner > ul, li.narrow .second .inner ul {
+	background-color: #fff;
+}
+
+.drop_down .narrow .second .inner ul li a {
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 1px solid #ededed;
+}
+.drop_down .narrow .second .inner ul li:last-child a {
+	border-bottom: unset;
+}
+.drop_down .second .inner > ul > li > a:hover {
+	background-color: #555;
+}
+
+
+.wpcf7-form-control-wrap input.wpcf7-form-control,
+.wpcf7-form-control-wrap textarea.wpcf7-form-control {
+	font-family: 'Montserrat', sans-serif;
+	border: 1px solid #dedede;
+	border-radius: 10px;
+	font-size: 15px;
+	color: #000;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wpcf7-list-item {
+	margin: 0px;
+}
+
+.drop_down .second .inner {
+	box-shadow: 0 1px 3px rgba(0,0,0,.11);
+}
+
+.wpcf7-response-output {
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+nav.main_menu > ul > li > a {
+	padding: 0 15px;
+}
+
+.main_menu.drop_down.left {
+	padding-left: 15px;
+}
+
+@media screen and (max-width: 1499px) {
+	.header_top_bottom_holder .header_bottom .container_inner {
+		width: 100%;
+	}
+}
+
+.post_content_holder .post_info {
+	display: none !important;
+}
+.post_content_holder h2 .entry_date {
+	display: none;
+}
+.post_content_holder .post_image img {
+	max-width: 400px;
+	margin: auto;
+}
+.post_content_holder h2 {
+	color: #4b86cf;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 1000px) and (min-width: 601px) {
+	.footer_top .footer_col1,
+	.footer_top .footer_col2 {
+		width: 50%;
+	}
+	.footer_top .footer_col3 {
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 1270px) and (min-width: 1001px){
+	.header_inner_right .btn {
+		font-size: 13px;
+		padding: 10px 18px;
+	}
+	nav.main_menu > ul > li > a {
+		padding: 0 8px;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+	body.qode_header_in_grid .header_bottom {
+		padding: 0 45px;
+	}
+}
+
+
+.blog_holder article .post_text h5,
+.blog_holder article .post_text a {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 500;
+	margin-bottom: 14px;
+}
+
+.blog_holder article .post_excerpt {
+	display: none;
+}
+
+.blog_holder.masonry article .post_text .post_text_inner {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.blog_holder.masonry article .post_info {
+	margin: 0px;
+}
+
+.blog_holder .post_info span {
+	color: #808080;
+	font-size: 12px;
+}
+
+.page-id-1038 .qode-blog-carousel-titled {
+	display: none;
+}
+
+.single #post-1395 .post_image {
+	display: none;
+}

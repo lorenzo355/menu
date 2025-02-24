@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #365385;
+    overflow: hidden;
+    color: #d10404;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+img {
+    width: 100%;
+    height: 30%;
+    margin: 58px;
+    border-radius: 0;
+
+}
+
+.login-form {
+    background-color: #365385;
+    padding: 38px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 40px rgba(233, 32, 32, 0.1);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #365385;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0069d9;
+    box-shadow: 0 0 5px rgba(0, 105, 217, 0.5);
+}
+
+button {
+    background-color: #0069d9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004b8c;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.error-message.show {
+    opacity: 1;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+

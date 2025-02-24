@@ -1,0 +1,7 @@
+_iub.csRC = { consApiKey: 'tgLvBfOcsdiuNYkZT7PJEtakZrMX5M4U', consentDatabasePublicKey: '7BUraeNcVUQbOE4XR5ZRjVJLpE6K3oys' }
+_iub.csEnabled = true;
+_iub.csPurposes = [5,3,4,1,2,7,"sh","adv","s"];
+_iub.cpUpd = 1709911960;
+_iub.csT = 2.0;
+_iub.googleConsentModeV2 = true;
+_iub.totalNumberOfProviders = 13;

@@ -33,7 +33,7 @@
             <a href="" class="dropbtn">'.$descrizione.'</a>
             <div class="dropdown-content">';
             }else{
-                echo '<a href="'.$nomePagina.'">'.$descrizione.'</a>';
+                echo '<a href="'.$nomePagina.'">'.$descrizione.'</a><br>';
             }
 
             if (ctype_digit($indice)) {
@@ -43,3 +43,6 @@
             }
             $i++;
         }
+        ?>
+    </ul>
+</nav>

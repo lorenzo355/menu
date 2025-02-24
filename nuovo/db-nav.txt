@@ -17,19 +17,16 @@
 3.3|contratto-costo-copia|contratto-costo-copia.php
 3.4|locazione-operativa|locazione-operativa.php
 3.5|eeducational|eeducational.php
-4|contattaci|
-4.1|0543724290|
-4.2|mailto:info@bm-informatica.it|
-4.3|http://www.bm-informatica.it|
-5|partners|
-5.1|https://www.zyxel.com/|
-5.1|https://www.dell.com/|
-5.1|https://store.acer.com/|
-5.1|https://www.hp.com/|
-5.1|https://www.lenovo.com/|
-5.1|https://www.tp-link.com/it/|
-5.1|https://www.withsecure.com/it/home|
-5.1|https://www.yeastar.com|
-5.1|https://www.microsoft.com|
-6|chi siamo|chisiamo.-php
-7|news|news.php
+4|partners|
+4.1|zyxel|https://www.zyxel.com
+4.2|dell|https://www.dell.com
+4.3|acer|https://store.acer.com
+4.4|hp|https://www.hp.com
+4.5|lenovo|https://www.lenovo.com
+4.6|tp-link|https://www.tp-link.com/it/
+4.7|whitsecure|https://www.withsecure.com/it/home
+4.8|yeastar|https://www.yeastar.com
+4.9|microsoft|https://www.microsoft.com
+5|chi siamo|chi-siamo.php
+6|news|news.php
+7|Home|HOMEWEB.php

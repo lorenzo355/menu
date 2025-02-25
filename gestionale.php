@@ -6,6 +6,4 @@
     <title>BM Informatica</title>
     <link rel="stylesheet" href="siamo.css">
     <link rel="stylesheet" href="styleHome.css">
-
-
 </head>

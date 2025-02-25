@@ -12,7 +12,6 @@
 <body>
     <header>
         <div class="container">
-            <img src="logo.png" alt="BM Informatica Logo" class="logo">
             <h1>BM INFORMATICA</h1>
             <p>Partner IT dal 1980</p>
         </div>

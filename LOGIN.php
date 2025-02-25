@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="indexlogin.css" />
+    <link rel="stylesheet" href="indexlogin.css" /> 
     <script src="jquery-3.7.1.min.js"></script>
     <script src="lolo.js"></script>
 </head>
@@ -45,23 +45,13 @@
         if(array_key_exists($nome, $arrayUtenti)) {
             
             if($passwordUtente==$password ){
-                header('Location: HOMEWEB.html');
+                header('Location: HOMEWEB.php');
             } else {
                 echo "<p style='color: red;'>Errore: Password errata. Per favore riprova.</p>";
             }
         }
     }
     ?>
-
-                <label for="cognome">Cognome</label>
-                <input type="text" id="cognome" name="cognome" placeholder="Inserisci il tuo cognome" required />
-
-                <label for="date">Data di Nascita</label>
-                <input type="date" id="date" name="date" required />
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Es: esempio@email.com" required />
-
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" placeholder="Inserisci la tua password" required />
            
@@ -69,6 +59,13 @@
                 <div class="error-message" id="error-message"></div>
 
                 <button type="submit">Accedi</button>
+
+                <a href="registrati.php">
+                <button type="button">registrati</button>
+                </a>
+
+
+
             </form>
         </div>
     </div>

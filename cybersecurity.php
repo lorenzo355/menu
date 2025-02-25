@@ -20,8 +20,10 @@
             ?>
     </header>
 
-<section class="intro">
-    <class="style=wight;height">
+<section class="intro"> 
+    <class ClassName extends ParentClass {
+        super()
+    }="style=wight;height">
         <h2>CYBERSECURITY E DIRETTIVA EUROPEA NIS 2</h2>
         <div style="wight ;height">
             <a href="cybersecurity.php">
@@ -41,8 +43,7 @@
         <li><strong>Consapevolezza e Formazione</strong>: Un elemento cruciale della cybersecurity è la sensibilizzazione degli utenti sui rischi informatici e sulla migliore pratica per proteggere i propri dispositivi e dati.</li>
     </ul>
 
-    <br>
-    <br>
+    </section>
 
     <h3>LA DIRETTIVA EUROPEA NIS2 COINVOLGE ANCHE LE PMI</h3>
     <p>La direttiva NIS2, abbreviazione di “Directive on Security of Network and Information Systems”, è una legislazione dell’Unione Europea (UE) che mira a migliorare la sicurezza delle reti e dei sistemi informativi nell’UE. È stata adottata per affrontare le minacce emergenti nel cyberspazio e per garantire un livello elevato e coerente di sicurezza delle reti e dei sistemi informativi in tutti gli Stati membri.</p>
@@ -68,5 +69,6 @@
             <p>&copy; 2025 BM Informatica | All Rights Reserved</p>
         </div>
     </footer>
+    
 </body> 
 </html>

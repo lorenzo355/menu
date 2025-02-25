@@ -25,9 +25,9 @@
     <div class="section">
         <h2>Le Nostre Soluzioni</h2>
         <div class="images-container">
-                <img src="https://via.placeholder.com/500" alt="Tecnologia Avanzata">
+                <img src="tecnologiaavanzata.jpg" alt="Tecnologia Avanzata" width="300" height="230">
             
-                <img src="https://via.placeholder.com/" alt="Innovazione Digitale">
+                <img src="innovazionedigitale.jpg" alt="Innovazione Digitale">
             
                 <img src="https://via.placeholder.com/" alt="Analisi Dati">
             </div>

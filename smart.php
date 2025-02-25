@@ -20,16 +20,15 @@
         <h2>Scopri SMART.</h2>
         <p>SMART è il gestionale aziendale completo per il controllo fiscale, finanziario, commerciale e produttivo delle Piccole Medie Imprese, comprendente le tecnologie per lo sviluppo più avanzate e aggiornate:</p>
         <ul>
-            <li>CONTABILITA.</li>
-            <li>BILANCIO.</li>
-            <li>VENDITE.</li>
-            <li>ACQUISTO.</li>
-            <li>MAGAZZINO.</li>
-            <li>GESTIONE.</li>
-            <li>GESTIONE.</li>
-            <li>NEGOZIO.</li>
-            <li>FATTURAZIONE ELETTRONICA.</li>
-            <li>COMMESSE.</li>
+            <li>•CONTABILITA.</li>
+            <li>•BILANCIO.</li>
+            <li>•VENDITE.</li>
+            <li>•ACQUISTO.</li>
+            <li>•MAGAZZINO.</li>
+            <li>•GESTIONE.</li>
+            <li>•NEGOZIO.</li>
+            <li>•FATTURAZIONE ELETTRONICA.</li>
+            <li>•COMMESSE.</li>
 
         </ul>
         <button class="button">Scopri SmarT</button>

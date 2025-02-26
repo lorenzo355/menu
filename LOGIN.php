@@ -55,11 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <a href="registrati.php">
                 <button type="button">registrati</button>
                 </a>
-
-
-
             </form>
         </div>
     </div>
     <script>
-    

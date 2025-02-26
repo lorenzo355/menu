@@ -7,7 +7,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="indexlogin.css" /> 
     <script src="jquery-3.7.1.min.js"></script>
-    <script src="lolo.js"></script>
+    <script src="registrati.php"></script>
 </head>
 
 <body>

@@ -16,7 +16,6 @@
                 ?>
 
     </header>
-
     
     <img src="smart-web.jpg" alt="Descrizione immagine">
 

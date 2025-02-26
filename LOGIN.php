@@ -19,39 +19,31 @@
                 <input type="text" id="name" name="nome" placeholder="Inserisci il tuo nome" required />
 
                 <?php
-               
-    if (isset($_POST['nome']) && $_SERVER['REQUEST_METHOD'] == 'POST') {
-        $nome = $_POST['nome'];
-        $password = $_POST['password'];
-        $arrayUtenti = [
-            'Lorenzo' => "Lorenzo01",
-            'Luca' => "Luca02",
-            'Giovanni' => "Giovanni03",
-            'Davide' => 'Davide04',
-            'francesco' => 'Francesco05',
-            'Mari0' => 'Mario06',
-            'Mattia' => 'Mattia07',
-        ];
-        $persone = ['Lorenzo','Luca','Giovanni','Davide','Francesco','Mario','Mattia']; 
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $nome = $_POST['nome'];
+    $password = $_POST['password'];
 
+    
+    $json = file_get_contents('utenti.json');
+    
+    $arrayUtenti = json_decode($json, true);
+
+    
+    if (array_key_exists($nome, $arrayUtenti)) {
         
-        if (array_key_exists($nome, $arrayUtenti)) {
-            $passwordUtente = $arrayUtenti[$nome];
+        if ($arrayUtenti[$nome] === $password) {
             
-
-        } else {
-            echo "<p style='color: red;'>Errore: Nome non valido. Per favore riprova.</p>";
-        }
-        if(array_key_exists($nome, $arrayUtenti)) {
-            
-            if($passwordUtente==$password ){
-                header('Location: HOMEWEB.php');
+            header('Location: HOMEWEB.php');
+            exit;
             } else {
-                echo "<p style='color: red;'>Errore: Password errata. Per favore riprova.</p>";
+            echo "<p style='color: red;'>Errore: Password errata. Per favore riprova.</p>";
             }
+            } else {
+            echo "<p style='color: red;'>Errore: Nome non valido. Per favore riprova.</p>";
+         }
         }
-    }
-    ?>
+        ?>
+
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" placeholder="Inserisci la tua password" required />
            

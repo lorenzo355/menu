@@ -14,21 +14,22 @@
                 include 'nav.php';
                 ?>
     </header>
-    <img src="TIROCINIOFILE.jpg alt="Descrizione immagine">
 
+    <img src="TIROCINIOFILE.jpg alt="Descrizione immagine">
+   
     <div class="section"> 
         <h2>Scopri SMART.</h2>
         <p>SMART è il gestionale aziendale completo per il controllo fiscale, finanziario, commerciale e produttivo delle Piccole Medie Imprese, comprendente le tecnologie per lo sviluppo più avanzate e aggiornate:</p>
         <ul>
-            <li>•CONTABILITA.</li>
-            <li>•BILANCIO.</li>
-            <li>•VENDITE.</li>
-            <li>•ACQUISTO.</li>
-            <li>•MAGAZZINO.</li>
-            <li>•GESTIONE.</li>
-            <li>•NEGOZIO.</li>
-            <li>•FATTURAZIONE ELETTRONICA.</li>
-            <li>•COMMESSE.</li>
+            <p>•CONTABILITA.</p>
+            <p>•BILANCIO.</p>
+            <p>•VENDITE.</p>
+            <p>•ACQUISTO.</p>
+            <p>•MAGAZZINO.</p>
+            <p>•GESTIONE.</p>
+            <p>•NEGOZIO.</p>
+            <p>•FATTURAZIONE ELETTRONICA.</p>
+            <p>•COMMESSE.</p>
 
         </ul>
         <button class="button">Scopri SmarT</button>

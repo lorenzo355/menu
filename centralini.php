@@ -1,4 +1,4 @@
-trgrwt <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,7 @@ trgrwt <!DOCTYPE html>
     </header>
 
     
-    <img src="centralini.jpg" alt="Descrizione immagine">
+    <img src="centralino.jpg" alt="Descrizione immagine">
 
     <div class="section"> 
         <h2>Centralini</h2>

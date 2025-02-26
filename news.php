@@ -21,7 +21,7 @@
     </header>
 
     <section class="intro">
-        <div class="style=wight;height">
+        <div class="style=wight;height" >
             <h2>Le news</h2>
                 <h4>CYBERSECURITY E DIRETTIVA EUROPEA NIS 2</h4>
                     <div style="wight ;height">
@@ -59,7 +59,7 @@
                 <h4>4 CONSIGLI PER LA PROTEZIONE DEI DATI</h4>
                     <div style="wight;height">
                         <a href="dati.php">
-                        <img src="dati.jpg"; alt="" width="350" height="220"/>
+                        <img src="dati.jpg"; alt="dati" width="350" height="220"/>
                         </a>
                     </div> 
         </div>

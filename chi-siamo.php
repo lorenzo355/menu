@@ -24,7 +24,8 @@
     <section class="intro">
         <div class="container">
             <h2>Chi Siamo</h2>
-            <p><img src="azienda.jpg" alt="Immagine Azienda" class="img-intro">BM INFORMATICA nasce a Forlì nel 1980. Siamo il partner IT di riferimento per molte aziende nel territorio forlivese, ci impegniamo per garantire loro il miglior supporto per la progettazione, realizzazione e gestione dei sistemi aziendali.</p>
+            <p><img src="azienda.jpg" alt="Immagine Azienda" width="1180" height="650">
+            <br>BM INFORMATICA nasce a Forlì nel 1980. Siamo il partner IT di riferimento per molte aziende nel territorio forlivese, ci impegniamo per garantire loro il miglior supporto per la progettazione, realizzazione e gestione dei sistemi aziendali.</p>
             <p>Grazie alla forte competenza sviluppata nel tempo, il nostro gruppo di lavoro cerca di trasformare in soluzioni per i clienti le opportunità offerte dagli sviluppi dell’Information Technology.</p>
         </div>
     </section>

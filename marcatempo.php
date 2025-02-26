@@ -19,15 +19,14 @@
 
     <div class="section"> 
         <h2>Controllo e ingressi marcatempo.</h2>
-        <p>installiamo sistemi di rilevazione accessi, tramite badge, impronte o dispositivi di riconoscimento facciale.</p>
-        <ul>
-            <li>scegliamo insieme il prodotto<br>Più adatto alle tue esigenze.</br></li>
+            <p>•installiamo sistemi di rilevazione accessi, tramite badge, impronte o dispositivi di riconoscimento facciale.</p>
+        
+            <p>•scegliamo insieme il prodotto più adatto alle tue esigenze.</br></p>
 
-            <li>consegna<br>Consegniamo personalmente i nostri prodotti per garantire un servizio di qualità.</br></li>
+            <p>•Consegniamo personalmente i nostri prodotti per garantire un servizio di qualità.</br></p>
 
-            <li>configurazione e installazione<br>Le nostre forniture vengono installate e configurate presso il nostro cliente, in modo da garantire qualità di utilizzo e compatibilità.</br></li>
+            <p>•Le nostre forniture vengono installate e configurate presso il nostro cliente, in modo da garantire qualità di utilizzo e compatibilità.</br></p>
 
-        </ul>
         <button class="button">Scopri Smart Web</button>
     </div>
 

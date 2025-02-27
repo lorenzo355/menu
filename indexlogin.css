@@ -94,6 +94,24 @@ button:hover {
     background-color: #004b8c;
 }
 
+a {
+    display: inline-block;
+    background-color: #0069d9;
+    color: white;
+    text-decoration: none; 
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    width: 100%; 
+    text-align: center; 
+    margin-top: 10px; 
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #004b8c;
+}
+
 .error-message {
     color: red;
     font-size: 0.9rem;
@@ -105,16 +123,3 @@ button:hover {
 .error-message.show {
     opacity: 1;
 }
-
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-

@@ -7,7 +7,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="indexlogin.css" /> 
     <script src="jquery-3.7.1.min.js"></script>
-    <script src="lolo.js"></script>
+    <script src="registrati.php"></script>
 </head>
 
 <body>
@@ -52,9 +52,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                 <button type="submit">Accedi</button>
 
-                <a href="registrati.php">
-                <button type="button">registrati</button>
-                </a>
+                <a href="registrati.php">Registrati</a>
+                
+                
             </form>
         </div>
     </div>

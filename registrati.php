@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -7,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrazione Utente</title>
     <link rel="stylesheet" href="registrazione.css">
-    </head>
-    <?php
+</head>
+<?php
 $errore_nome = $errore_email = $errore_password = '';
 $nome = $email = $password = '';
 
@@ -32,12 +30,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if (empty($errore_nome) && empty($errore_email) && empty($errore_password)) {
+        update_json_file($nome, $password);
         echo "Registrazione avvenuta con successo!";
     }
 }
 
 function sanitize_input($data) {
     return htmlspecialchars(trim($data));
+}
+
+function update_json_file($nome, $password) {
+    $file = 'users.json'; 
+
+    $json_data = file_get_contents($file);
+    $users = json_decode($json_data, true);
+
+    $users[$nome] = $password;
+
+    file_put_contents($file, json_encode($users, JSON_PRETTY_PRINT));
 }
 ?>
 <body>
@@ -61,7 +71,7 @@ function sanitize_input($data) {
             </div>
            
             <button type="submit" class="btn">Registrati</button>
-            <a href="LOGIN.php">
+            <a href="LOGIN.php">Accedi</a>
         </form>
     </div>
 </body>

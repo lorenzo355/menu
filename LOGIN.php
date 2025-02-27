@@ -52,9 +52,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                 <button type="submit">Accedi</button>
 
-                <a href="registrati.php">
-                <button type="button">registrati</button>
-                </a>
+                <a href="registrati.php">Registrati</a>
+                
+                
             </form>
         </div>
     </div>

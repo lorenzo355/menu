@@ -12,11 +12,10 @@
 2.4|pec-domini|pec-domini.php
 2.5|marcatempo|marcatempo.php
 3|servizi|
-3.1|formazione-assistenza|formzione-assistenza.php
-3.2|consulenza|consulenza.php
-3.3|contratto-costo-copia|contratto-costo-copia.php
-3.4|locazione-operativa|locazione-operativa.php
-3.5|eeducational|eeducational.php
+3.1|formazione-assistenza|formazione-assistenza.php
+3.2|contratto-costo-copia|contratto-costo-copia.php
+3.3|locazione-operativa|locazione-operativa.php
+3.4|eeducational|eeducational.php
 4|partners|
 4.1|zyxel|https://www.zyxel.com
 4.2|dell|https://www.dell.com

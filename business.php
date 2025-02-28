@@ -77,15 +77,13 @@
     <div class="section"> 
         <h2>Power BI</h2>
         <p><h3>è uno strumento di Business Intelligence per monitorare la propria azienda.</h3></p>
-        <ul>
-            <li>Fornisce statistiche in tempo reale consultabili da qualsiasi dispositivo.
+            <p>Fornisce statistiche in tempo reale consultabili da qualsiasi dispositivo.
 
-                E’ semplice da utilizzare, è possibile pubblicare report e condividerli.</li>
+                E’ semplice da utilizzare, è possibile pubblicare report e condividerli.</p>
     </div> 
 
     <div class="section">
         <h2>Sotware Microsoft</h2>
-        <li>
             <h3> BI è un software Microsoft. Configurazione e assistenza sono fornite dai tecnici BM Informatica.</h3>
     </div>
     

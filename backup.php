@@ -33,12 +33,10 @@
  
 
         <h2>SOLUZIONI CLOUD</h2>
-        <ul>
-            <li>· Spazio cloud dedicato.</li>
-            <li>· Non sono necessari strumenti hardware.            </li>
-            <li>· Massima sicurezza, antifurto, antifrode, recupero dati immediato.            </li>
-            <li>· Monitoraggio e assistenza BM informatica.</li>
-        </ul>
+            <p>• Spazio cloud dedicato.</p>
+            <p>• Non sono necessari strumenti hardware.            </p>
+            <p>• Massima sicurezza, antifurto, antifrode, recupero dati immediato.            </p>
+            <p>• Monitoraggio e assistenza BM informatica.</p>
 
     <div class="contact-info">
         <p>ASSISTENZA!</p>

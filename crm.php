@@ -24,7 +24,7 @@
         <ClassName extends ParentClass {
             super()
         }="style=wight;height">
-            <h2>CRM PER LA GESTIONE DEL CLIENTE E NON SOLO...</h2>
+            <h2>CRM PER LA GESTIONE DEL CLIENTE</h2>
             <div style="wight ;height">
                 <a href="crm.php">
                     <img src="crm.jpg"; alt="crm" width="350" height="220" />

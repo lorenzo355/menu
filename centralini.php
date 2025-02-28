@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Web | Gestionale ERP in Cloud</title>
     <link rel="stylesheet" href="styleHome.css">
-    <link rel="stylesheet" href="SmartWeb.css">
+    <link rel="stylesheet" href="centralino.css">
 </head>
 <body>
     <header>
@@ -17,8 +17,9 @@
 
     </header>
 
-    <img src="centralino.jpg" alt="Descrizione immagine">
-   
+    <div class="images-container">
+        <img src="centralino.jpg" alt="centralino">
+    </div>
 
     <div class="section"> 
     

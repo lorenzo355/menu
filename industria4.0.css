@@ -25,6 +25,10 @@ header p {
     animation: fadeIn 3s ease-in-out;
 }
 
+.images-container {
+    width: 31.5%;
+}
+
 .section {
     padding: 60px 20px;
     text-align: center;

@@ -22,7 +22,7 @@
 
     <section class="intro">
         <class="style=wight;height">
-            <h2>FORNITURE E CONSUENZE PER ISTITUTI SCOLASTICI</h2>
+            <h2>FORNITURE E CONSULENZE PER ISTITUTI SCOLASTICI</h2>
             <div style="wight ;height">
                 <a href="scuola.php">
                     <img src="scuola.jpg"; alt="scuola" width="350" height="220" />

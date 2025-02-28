@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styleHome.css">
     <link rel="stylesheet" href="backup.css">
 </head>
-<body>
+
     <header>
         <h1>Backup e sicurezza dati</h1>
       
@@ -17,8 +17,9 @@
 
     </header>
 
-    
-    <img src="backupsicurezza.jpg" alt="Descrizione immagine">
+    <div class="images-container">
+        <img src="backupsicurezza.jpg" alt="Descrizione immagine">
+    </div>
 
     <div class="section"> 
         <h2>Difendi il vero patrimonio dell’azienda.</h2>

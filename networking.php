@@ -18,10 +18,11 @@
     </header>
 
     
-    <img src=".jpg" alt="Descrizione immagine">
+  
 
-    <div class="section"> 
-        <h2>Networking</h2>
+    <div class="section">
+   
+    <h2>Networking</h2>
         <p></p>
         <ul>
             <li>I progetti di networking sono pensati per tutte quelle realtà che vogliono fare della tecnologia la leva strategica per conquistare la competitività.</li>
@@ -34,7 +35,9 @@
             <li>Soluzioni per la sicurezza dei dati come firewall, antivirus centralizzati, tool di backup locali o in cloud.</li>
             <li>La realizzazione di server fisici o virtualizzati per la gestione interna delle email, lo scambio dati interno ed esterno all’impresa e tutti quei servizi necessari allo svolgimento dell’attività produttiva tramite la rete.</li>
         </ul>
+        <img src="networking.jpg" alt="Descrizione immagine"> 
     </div>
+
 
 
     <div class="section">

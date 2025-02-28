@@ -16,10 +16,11 @@
     </header>
 
 
-    <div class="section"> 
+    <div class="section">
         <h2>Immergiti nella Quarta Rivoluzione Industriale</h2>
         <p>Il Ministero dello Sviluppo Economico promuove l’investimento delle aziende in tecnologia ed innovazione tramite il Piano Nazionale Transizione 4.0.Per questo ci siamo specializzati nelle integrazioni Industria 4.0. Ti aiutiamo ad ottenere il massimo leggendo i dati provenienti dalle macchine, trasmettendoli al sistema informativo e realizzando analisi statistiche sulla base delle tue esigenze.</p>
         <button class="button">Scopri di più</button>
+        
     </div>
 
     <div class="section">
@@ -29,7 +30,7 @@
             
                 <img src="innovazionedigitale.jpg" alt="Innovazione Digitale">
             
-                <img src="https://via.placeholder.com/" alt="Analisi Dati">
+                <img src="analisidati.jpg" alt="Analisi Dati">
             </div>
         </div>
     </div>

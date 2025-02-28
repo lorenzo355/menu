@@ -7,26 +7,27 @@
     <link rel="stylesheet" href="siamo.css">
     <link rel="stylesheet" href="styleHome.css">
     <style>
-        /* Stili per il contenitore delle immagini */
+        
         .image-container {
             display: flex;
             flex-wrap: wrap;
-            gap: 20px; /* Spaziatura tra le immagini */
+            gap: 20px; 
             justify-content: center;
         }
 
-        /* Stili per le singole immagini */
+        
         .image-container div {
-            width: 350px; /* Larghezza fissa per ogni immagine */
-            height: 220px; /* Altezza fissa per ogni immagine */
+            width: 350px; 
+            height: 220px; 
         }
 
         img {
-            width: 100%; /* L'immagine riempie tutto il contenitore */
-            height: 100%; /* L'immagine riempie tutto il contenitore */
-            object-fit: cover; /* Mantiene le proporzioni dell'immagine */
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover;
         }
     </style>
+
 </head>
 <body>
     <header>
@@ -42,11 +43,12 @@
     <h1>Le news</h1>
 
     <section class="intro">
+  
         <div class="image-container">
             
            
             <div>
-            <h4>CYBERSECURITY E DIRETTIVA EUROPEA NIS 2</h4>
+            <h4>CYBERSECURITY E DIRETTIVA EUROPEA</h4>
                 <a href="cybersecurity.php">
                     <img src="cybersecurity.jpg" alt="cybersecurity" />
                 </a>
@@ -70,7 +72,7 @@
 
             
             <div>
-            <h4>CRM PER LA GESTIONE DEL CLIENTE E NON SOLO...</h4>
+            <h4>CRM PER LA GESTIONE DEL CLIENTE</h4>
                 <a href="crm.php">
                     <img src="crm.jpg" alt="crm" />
                 </a>
@@ -78,7 +80,7 @@
 
             
             <div>
-            <h4>FORNITURE E CONSUENZE PER ISTITUTI SCOLASTICI</h4>
+            <h4>FORNITURE PER ISTITUTI SCOLASTICI</h4>
                 <a href="scuola.php">
                     <img src="scuola.jpg" alt="scuola" />
                 </a>

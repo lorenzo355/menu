@@ -15,9 +15,10 @@
                 ?>
     </header>
 
-    <img src="TIROCINIOFILE.jpg alt="Descrizione immagine">
+  
    
     <div class="section"> 
+    <img src="TIROCINIOFILE.jpg"; alt="smart">
         <h2>Scopri SMART.</h2>
         <p>SMART è il gestionale aziendale completo per il controllo fiscale, finanziario, commerciale e produttivo delle Piccole Medie Imprese, comprendente le tecnologie per lo sviluppo più avanzate e aggiornate:</p>
         <ul>

@@ -22,9 +22,10 @@
         <p>Ci occupiamo della <strong>formazione</strong>, attraverso conference call, interventi c/o Vs e Ns sede, assicurandoci che i clienti acquisiscano le conoscenze per sfruttare al meglio i nostri programmi.</p>
         <p>Con l’ <strong>Assistenza telefonica</strong>, diamo la possibilità al cliente di interrogare gli addetti al servizio, per richiedere informazioni generali sull’utilizzo dei programmi per la soluzione di eventuali problematiche operative.</p>
         <p>Possibilità di stipulare contratti di assistenza a <strong>canone annuale</strong>.</p>
+        <img src="software.jpg" alt="comparto software"/>
     </div>
 
-    <img src="software.jpg" alt="comparto software"/>
+   
 
     <div class="section">
         <h2>COMPARTO HARDWARE</h2>
@@ -33,13 +34,15 @@
         <p>Effettuiamo sopralluoghi per analizzare l’apparato IT aziendale ed offrire soluzioni su misura</p>
         <br>
         <h3>Chiamaci allo <strong>0543 724290</strong> oppure scrivici per maggiori dettagli.</h3>
-        <a href="mailto:info@bm-informatica.com">Contattaci ora</a>
+        <img src="hardware.jpg" alt="comparto hardware"/>
     </div>
 
-    <img src="hardware.jpg" alt="comparto hardware"/>
+   
 
-    <div class="contact info">
-           
+    <div class="contact-info">
+        <p>Contattaci senza impegno!<p>
+        <p>Chiamaci allo <strong>0543 724290</strong> oppure scrivici per maggiori dettagli.</p>
+        <a href="mailto:info@bm-informatica.com">Contattaci ora</a>
     </div>
 
     <footer>

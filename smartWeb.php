@@ -17,8 +17,9 @@
 
     </header>
 
-    
-    <img src="smart-web.jpg" alt="Descrizione immagine">
+    <div class="images-container">
+        <img src="smart-web.jpg" alt="Descrizione immagine">
+    </div>
 
     <div class="section"> 
         <h2>Scopri il nostro gestionale ERP per piccole imprese.</h2>

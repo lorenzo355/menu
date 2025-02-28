@@ -26,23 +26,14 @@
             <p>•Consegniamo personalmente i nostri prodotti per garantire un servizio di qualità.</br></p>
 
             <p>•Le nostre forniture vengono installate e configurate presso il nostro cliente, in modo da garantire qualità di utilizzo e compatibilità.</br></p>
-
-        <button class="button">Scopri Smart Web</button>
+            <br>
+        <img src="marcatempo-1.jpg";>
     </div>
-
-    <div style="wight;height">
-    <img src="marcatempo-1.jpg";>
-</div>
-
-
-    <div class="section">
-        <p>Chiamaci allo <strong>0543 724290</strong> oppure contattaci per maggiori informazioni.</p>
-    </div>
-
+    
     <div class="contact-info">
         <p>Contattaci senza impegno!</p>
         <p>Chiamaci allo <strong>0543 724290</strong> oppure scrivici per maggiori dettagli.</p>
-        <a href="mailto:info@smartweb.com">Contattaci ora</a>
+        <a href="mailto:info@bm-informatica.com">Contattaci ora</a>
     </div>
 </body>
 </html>

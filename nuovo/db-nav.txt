@@ -15,7 +15,7 @@
 3.1|formazione-assistenza|formazione-assistenza.php
 3.2|contratto-costo-copia|contratto-costo-copia.php
 3.3|locazione-operativa|locazione-operativa.php
-3.4|eeducational|eeducational.php
+3.4|educational|eeducational.php
 4|partners|
 4.1|zyxel|https://www.zyxel.com
 4.2|dell|https://www.dell.com

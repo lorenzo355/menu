@@ -24,6 +24,8 @@
         <p>Possibilità di stipulare contratti di assistenza a <strong>canone annuale</strong>.</p>
     </div>
 
+    <img src="software.jpg" alt="comparto software"/>
+
     <div class="section">
         <h2>COMPARTO HARDWARE</h2>
         <p>Tecnici preparati e competenti, pronti ad ogni tipo di intervento, hardware o software.</p>
@@ -33,6 +35,8 @@
         <h3>Chiamaci allo <strong>0543 724290</strong> oppure scrivici per maggiori dettagli.</h3>
         <a href="mailto:info@bm-informatica.com">Contattaci ora</a>
     </div>
+
+    <img src="hardware.jpg" alt="comparto hardware"/>
 
     <div class="contact info">
            
